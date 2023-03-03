@@ -1,0 +1,86 @@
+body{
+    background-image: url("todo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+form{
+    
+    text-align: center;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    flex-grow: 1;
+}
+
+ h1{
+    text-align: center;
+    color: #f2f1f7;
+    font-size: 46px;
+}
+
+button{
+    border: 2px solid transparent;
+    background-color: #181818;
+    border-radius: 3px;
+    color: #f2f1f7;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    justify-content: space-between; 
+}
+
+button:hover{
+    background-color: #f2f1f7;
+    color: #181818;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+}
+form #newTodo{
+    padding: 3px;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    background-color: #f2f1f7;
+    text-decoration: none;
+    font-size: 15px;
+    border-style: none;
+    height: 25px;
+    width: 300px;
+
+}
+
+ul{
+    list-style: none;
+    border: 1px solid rgb(198, 231, 105);
+    width: 550px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+li{
+    display: flex;
+    justify-content: space-between; 
+    padding: 6px;
+    margin: 10px 10px 10px -25px;
+    border-bottom: 2px solid rgb(223, 42, 42);
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+li span{
+    flex-grow: 1;
+}
+
+li button{
+    margin-left: 10px;
+    background-color: red;
+    border: none;
+}
+
+li button.edit{
+    background-color: #2196f3;
+}
